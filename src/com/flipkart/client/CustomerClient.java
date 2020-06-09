@@ -5,7 +5,6 @@ import com.flipkart.bean.Customer;
 import com.flipkart.service.CustomerOperation;
 import com.flipkart.service.Operations;
 
-
 public class CustomerClient {
 	public static void main(String[] args){
 		
