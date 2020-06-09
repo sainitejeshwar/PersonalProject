@@ -1,5 +1,7 @@
 package com.flipkart.bean;
 
+import com.flipkart.service.LocationException;
+
 public class Customer {
 	
 	private int ID;
@@ -27,8 +29,12 @@ public class Customer {
 	public String getLocation() {
 		return Location;
 	}
-	public void setLocation(String location) {
-		Location = location;
+	public void setLocation(String location) throws LocationException{
+		if(location.equals("Delhi") || location.equals("delhi"))
+			throw new LocationException(location);
+		else {
+			Location = location;
+		}
 	}
 	
 
