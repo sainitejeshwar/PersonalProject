@@ -20,7 +20,7 @@ public class CustomerClient {
 			try 
 			{
 				logger.debug("\n\nChoices: \n1.Add Customer \n2.Delete Customer \n3.Edit Customer\n4.List all Customers\n");
-				logger.debug(">>>  ");
+				logger.info(">>>  ");
 				opt = Integer.parseInt(inputScanner.nextLine());
 				switch(opt) {
 				
