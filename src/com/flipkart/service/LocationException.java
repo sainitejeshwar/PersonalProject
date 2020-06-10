@@ -1,9 +1,15 @@
 package com.flipkart.service;
 
+import org.apache.log4j.Logger;
+
 public class LocationException extends Exception {
+	private static Logger logger = Logger.getLogger(LocationException.class);
+	private String Message;
 	public LocationException(String location) {
-		System.out.println(location + "Cannot be Accepted For Delivery");
-		
+		this.Message = location+" is not acceptable for ordering";
+	}
+	public String getMessage() {
+		return this.Message;
 	}
 
 }
