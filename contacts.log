@@ -1,0 +1,146 @@
+10:35:46,537 DEBUG CustomerClient,main:22 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+10:35:58,406 DEBUG CustomerClient,main:22 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+10:36:17,411 DEBUG CustomerClient,main:22 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+10:40:07,034 DEBUG CustomerClient,main:22 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+10:40:07,037  INFO CustomerClient,main:23 - >>>  
+10:40:12,240  INFO CustomerClient,main:30 - ID : 
+10:40:15,783  INFO CustomerClient,main:33 - Name : 
+10:40:18,892  INFO CustomerClient,main:39 - Location : 
+10:40:21,581  INFO CustomerClient,main:39 - Location : 
+10:40:27,575  INFO CustomerClient,main:39 - Location : 
+10:40:32,224  INFO CustomerClient,main:44 - Address : 
+10:40:35,262 DEBUG CustomerClient,main:22 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+10:40:35,262  INFO CustomerClient,main:23 - >>>  
+10:40:40,983  INFO CustomerClient,main:82 - Aborting .. !!
+10:47:51,680 DEBUG CustomerClient,main:22 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+10:47:51,682  INFO CustomerClient,main:23 - >>>  
+10:47:55,201  INFO CustomerClient,main:30 - ID : 
+10:47:57,009  INFO CustomerClient,main:33 - Name : 
+10:47:58,856  INFO CustomerClient,main:39 - Location : 
+10:48:00,925 ERROR CustomerClient,main:43 - delhi is not acceptable for ordering
+10:48:00,925 ERROR CustomerClient,main:44 - [Ljava.lang.StackTraceElement;@4b553d26
+10:48:00,926  INFO CustomerClient,main:39 - Location : 
+10:48:13,768 ERROR CustomerClient,main:43 - Delhi is not acceptable for ordering
+10:48:13,768 ERROR CustomerClient,main:44 - [Ljava.lang.StackTraceElement;@2a556333
+10:48:13,768  INFO CustomerClient,main:39 - Location : 
+10:48:19,122  INFO CustomerClient,main:47 - Address : 
+10:48:20,896 DEBUG CustomerClient,main:22 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+10:48:20,897  INFO CustomerClient,main:23 - >>>  
+10:48:23,316  INFO CustomerClient,main:59 - Enter ID to edit : 
+10:48:25,828  INFO CustomerClient,main:64 - Name : 
+10:48:27,533  INFO CustomerClient,main:70 - Location : 
+10:48:29,802 ERROR CustomerClient,main:74 - delhi is not acceptable for ordering
+10:48:29,802 ERROR CustomerClient,main:75 - [Ljava.lang.StackTraceElement;@7a187f14
+10:48:29,802  INFO CustomerClient,main:70 - Location : 
+10:48:32,859  INFO CustomerClient,main:78 - Address : 
+10:48:33,707  INFO CustomerClient,main:80 - Updated
+10:48:33,708 DEBUG CustomerClient,main:22 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+10:48:33,708  INFO CustomerClient,main:23 - >>>  
+10:48:35,491 DEBUG CustomerClient,main:84 - 
+ID : 1
+Name : a
+Location : aa
+Address : a
+
+10:48:35,491 DEBUG CustomerClient,main:22 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+10:48:35,491  INFO CustomerClient,main:23 - >>>  
+11:22:54,985 DEBUG CustomerClient,main:22 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+11:22:54,989  INFO CustomerClient,main:23 - >>>  
+11:23:25,189  INFO CustomerClient,main:30 - ID : 
+11:23:27,163  INFO CustomerClient,main:33 - Name : 
+11:23:28,160  INFO CustomerClient,main:39 - Location : 
+11:23:28,778  INFO CustomerClient,main:46 - Address : 
+11:23:29,403 DEBUG CustomerClient,main:22 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+11:23:29,403  INFO CustomerClient,main:23 - >>>  
+11:23:34,058  INFO CustomerClient,main:58 - Enter ID to edit : 
+11:23:36,337  INFO CustomerClient,main:63 - Name : 
+11:23:36,859  INFO CustomerClient,main:69 - Location : 
+11:23:37,280  INFO CustomerClient,main:76 - Address : 
+11:23:37,863 DEBUG CustomerClient,main:78 - Updated
+11:23:37,863 DEBUG CustomerClient,main:22 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+11:23:37,863  INFO CustomerClient,main:23 - >>>  
+11:24:30,617 ERROR CustomerClient,main:86 - Aborting .. !!

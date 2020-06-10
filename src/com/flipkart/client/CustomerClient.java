@@ -20,7 +20,7 @@ public class CustomerClient {
 			try 
 			{
 				logger.debug("\n\nChoices: \n1.Add Customer \n2.Delete Customer \n3.Edit Customer\n4.List all Customers\n");
-				logger.info(">>>  ");
+				logger.debug(">>>  ");
 				opt = Integer.parseInt(inputScanner.nextLine());
 				switch(opt) {
 				
@@ -51,7 +51,7 @@ public class CustomerClient {
 					
 				case 2:
 					logger.info("Enter ID to delete : ");
-					logger.info(custOperations.deleteCustomer(Integer.parseInt(inputScanner.nextLine())));
+					logger.debug(custOperations.deleteCustomer(Integer.parseInt(inputScanner.nextLine())));
 					break;
 					
 				case 3:
@@ -75,7 +75,7 @@ public class CustomerClient {
 					}
 					logger.info("Address : ");
 					tempCustomer2.setAddress(inputScanner.nextLine());
-					logger.info(custOperations.editCustomer(id, tempCustomer2));
+					logger.debug(custOperations.editCustomer(id, tempCustomer2));
 					break;
 					
 				case 4:
