@@ -1,9 +1,7 @@
 package com.flipkart.client;
 
 import java.util.*;
-
 import org.apache.log4j.Logger;
-
 import com.flipkart.bean.Customer;
 import com.flipkart.service.CustomerOperation;
 import com.flipkart.service.LocationException;
