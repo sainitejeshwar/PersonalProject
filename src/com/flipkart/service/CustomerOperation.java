@@ -1,95 +1,44 @@
 package com.flipkart.service;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.util.ArrayList;
+
+import org.apache.log4j.Logger;
+import com.flipkart.DAO.CustomerDAOImpl;
 import com.flipkart.bean.Customer;
 
+
 public class CustomerOperation implements Operations {
-	
-	
-	static final String JDBC_Driver = "com.mysql.jdbc.Driver";
-	static final String DB_URL ="jdbc:mysql://localhost/bootcamp";
-	
-	static final String USER = "root";
-	static final String PASS =	"root";
-	
-	ArrayList<Customer> CustArr = new ArrayList<Customer>();
+	private static  Logger logger = Logger.getLogger(CustomerOperation.class);
+	private CustomerDAOImpl CustomerDAO = new CustomerDAOImpl();
 	
 	@Override
 	public void addCustomer(Customer cust) {
-//		Connection conn = null;
-//		PreparedStatement stmt = null;
-//		try {
-//			Class.forName(JDBC_Driver);
-//			System.out.println("Connecting...");
-//			conn = DriverManager.getConnection(DB_URL, USER , PASS);
-//			
-//			String sql = "insert into customers values (?,?,?,?)";
-//			stmt = conn.prepareStatement(sql);
-//			
-//			stmt.executeUpdate();
-//			
-//			stmt.close();
-//			conn.close();
-//			
-//			
-//		}
-//		catch (Exception e) {
-//			System.out.println("Error : "+e.getMessage());
-//		}
-//		finally {
-//			try{
-//		         if(stmt!=null)
-//		            stmt.close();
-//		      }catch(SQLException se2){
-//		      }
-//		      try{
-//		         if(conn!=null)
-//		            conn.close();
-//		      }catch(SQLException se){
-//		         se.printStackTrace();
-//		      }
-//		}
-		
-		CustArr.add(cust);
+		logger.debug(CustomerDAO.insertCustomer(cust));
 		return;
 	}
 	@Override
 	public String deleteCustomer(int ID ) {
 		String res = "Not found.!!";
-		for(Customer c: CustArr) {
-			if(c.getID() == ID) {
-				CustArr.remove(c);
-				res = "Deleted";
-				break;
-			}
+		if(CustomerDAO.deleteCustomer(ID)) {
+			res = "Deleted!";
 		}
 		return res;
 	}
 	@Override
 	public String editCustomer(int ID , Customer cust) {
 		String res = "Invalid ID";
-		int ind =0 ;
-		for(Customer c: CustArr) {
-			if(c.getID()==ID) {
-				CustArr.set(ind, cust);
-				res = "Updated";
-				break;
-			}
-			ind++;
+		if(CustomerDAO.editCustomer(ID, cust)) {
+			res = "Updated!";
 		}
 		return res;
 	}
 	@Override
 	public String listCustomer() {
-		String res = "";
-		for(Customer c : CustArr) {
-				res = res	+"\nID : "+c.getID()+"\n"+"Name : "+c.getName()+"\n"+"Location : "
-							+c.getLocation()+"\n"+"Address : "+c.getAddress()+"\n";
-			}
+		String res = CustomerDAO.listAllCustomer();
+		return res;
+	}
+	@Override
+	public String listCustomerbyID(int ID) {
+		String res = CustomerDAO.listCustomerbyID(ID);
 		return res;
 	}
 	

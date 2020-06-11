@@ -17,7 +17,7 @@ public class CustomerClient {
 		do{
 			try 
 			{
-				logger.debug("\n\nChoices: \n1.Add Customer \n2.Delete Customer \n3.Edit Customer\n4.List all Customers\n");
+				logger.debug("\n\nChoices: \n1.Add Customer \n2.Delete Customer \n3.Edit Customer\n4.List all Customers\n5.List Customer by ID\n");
 				logger.error(">>>  ");
 				opt = Integer.parseInt(inputScanner.nextLine());
 				switch(opt) {
@@ -79,10 +79,15 @@ public class CustomerClient {
 				case 4:
 					logger.debug(custOperations.listCustomer());
 					break;
+				case 5:
+					logger.info("Enter ID to edit : ");
+					int ID = Integer.parseInt(inputScanner.nextLine());
+					logger.debug(custOperations.listCustomerbyID(ID));
+					break;
 					
 				default:
 					logger.error("Aborting .. !!");
-					opt = 5;
+					opt = 6;
 					break;
 				}
 			}
@@ -92,7 +97,7 @@ public class CustomerClient {
 			}
 			
 		}
-		while(opt == 1 || opt == 2 || opt == 3 || opt == 4);
+		while(opt == 1 || opt == 2 || opt == 3 || opt == 4 || opt == 5);
 			inputScanner.close();
 	}
 }

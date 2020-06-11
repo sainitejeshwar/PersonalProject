@@ -144,3 +144,398 @@ Choices:
 
 11:23:37,863  INFO CustomerClient,main:23 - >>>  
 11:24:30,617 ERROR CustomerClient,main:86 - Aborting .. !!
+16:19:21,845 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+16:19:21,847 ERROR CustomerClient,main:21 - >>>  
+16:19:24,887  INFO CustomerClient,main:28 - ID : 
+16:19:27,131  INFO CustomerClient,main:31 - Name : 
+16:19:29,811  INFO CustomerClient,main:37 - Location : 
+16:19:33,693  INFO CustomerClient,main:44 - Address : 
+16:19:41,425 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+16:19:41,426 ERROR CustomerClient,main:21 - >>>  
+16:20:00,094  INFO CustomerClient,main:28 - ID : 
+16:20:04,249  INFO CustomerClient,main:31 - Name : 
+16:20:05,816  INFO CustomerClient,main:37 - Location : 
+16:20:06,820  INFO CustomerClient,main:44 - Address : 
+16:20:07,568 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+16:20:07,569 ERROR CustomerClient,main:21 - >>>  
+16:20:13,582 ERROR CustomerClient,main:84 - Aborting .. !!
+16:20:20,060 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+16:20:20,070 ERROR CustomerClient,main:21 - >>>  
+16:20:21,916  INFO CustomerClient,main:28 - ID : 
+16:20:23,162  INFO CustomerClient,main:31 - Name : 
+16:20:24,021  INFO CustomerClient,main:37 - Location : 
+16:20:24,542  INFO CustomerClient,main:44 - Address : 
+16:20:26,471 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+16:20:26,471 ERROR CustomerClient,main:21 - >>>  
+16:21:09,941 DEBUG CustomerClient,main:80 - 
+ID : 101
+Name : d
+Location : s
+Address : s
+
+16:21:09,941 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+16:21:09,942 ERROR CustomerClient,main:21 - >>>  
+16:21:17,479 ERROR CustomerClient,main:84 - Aborting .. !!
+16:29:11,084 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+16:29:11,090 ERROR CustomerClient,main:21 - >>>  
+16:29:13,305  INFO CustomerClient,main:28 - ID : 
+16:29:15,196  INFO CustomerClient,main:31 - Name : 
+16:29:16,537  INFO CustomerClient,main:37 - Location : 
+16:29:17,728  INFO CustomerClient,main:44 - Address : 
+16:29:19,360 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+16:29:19,360 ERROR CustomerClient,main:21 - >>>  
+16:33:23,417 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+16:33:23,419 ERROR CustomerClient,main:21 - >>>  
+16:33:24,773  INFO CustomerClient,main:28 - ID : 
+16:33:26,345  INFO CustomerClient,main:31 - Name : 
+16:33:27,090  INFO CustomerClient,main:37 - Location : 
+16:33:27,331  INFO CustomerClient,main:44 - Address : 
+16:33:27,556 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+16:33:27,556 ERROR CustomerClient,main:21 - >>>  
+16:33:29,896 DEBUG CustomerClient,main:80 - 
+ID : 1
+Name : a
+Location : a
+Address : a
+
+16:33:29,896 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+16:33:29,896 ERROR CustomerClient,main:21 - >>>  
+16:33:32,817 ERROR CustomerClient,main:84 - Aborting .. !!
+21:13:11,358 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+21:13:11,372 ERROR CustomerClient,main:21 - >>>  
+13:50:14,493 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+13:50:14,512 ERROR CustomerClient,main:21 - >>>  
+13:50:21,457  INFO CustomerClient,main:28 - ID : 
+13:50:24,540  INFO CustomerClient,main:31 - Name : 
+13:50:26,366  INFO CustomerClient,main:37 - Location : 
+13:50:28,700 ERROR CustomerClient,main:41 - delhi is not acceptable for ordering
+13:50:28,700  INFO CustomerClient,main:37 - Location : 
+13:50:33,043  INFO CustomerClient,main:44 - Address : 
+13:50:37,641 DEBUG CustomerClient,main:23 - true
+13:50:37,641 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+13:50:37,642 ERROR CustomerClient,main:21 - >>>  
+13:50:40,698 DEBUG CustomerClient,main:80 - 1,teje,mumbai,india
+102,yo,ff,fdfd
+103,A,mumbai,c-2
+
+13:50:40,698 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+13:50:40,698 ERROR CustomerClient,main:21 - >>>  
+13:50:48,512  INFO CustomerClient,main:51 - Enter ID to delete : 
+13:50:50,900 DEBUG CustomerClient,main:52 - Deleted!
+13:50:50,901 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+13:50:50,902 ERROR CustomerClient,main:21 - >>>  
+13:50:55,546 DEBUG CustomerClient,main:80 - 102,yo,ff,fdfd
+103,A,mumbai,c-2
+
+13:50:55,546 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+13:50:55,547 ERROR CustomerClient,main:21 - >>>  
+13:50:59,718  INFO CustomerClient,main:56 - Enter ID to edit : 
+13:51:03,773  INFO CustomerClient,main:61 - Name : 
+13:51:06,716  INFO CustomerClient,main:67 - Location : 
+13:51:08,985 ERROR CustomerClient,main:71 - delhi is not acceptable for ordering
+13:51:08,986  INFO CustomerClient,main:67 - Location : 
+13:51:15,228  INFO CustomerClient,main:74 - Address : 
+13:51:16,158 DEBUG CustomerClient,main:76 - Updated!
+13:51:16,158 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+13:51:16,159 ERROR CustomerClient,main:21 - >>>  
+13:51:18,001 DEBUG CustomerClient,main:80 - 102,fsf,mumbaiii,dd
+103,A,mumbai,c-2
+
+13:51:18,001 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+13:51:18,001 ERROR CustomerClient,main:21 - >>>  
+13:51:23,366 ERROR CustomerClient,main:84 - Aborting .. !!
+13:58:01,859 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+13:58:01,861 ERROR CustomerClient,main:21 - >>>  
+13:58:05,189  INFO CustomerClient,main:28 - ID : 
+13:58:07,822  INFO CustomerClient,main:31 - Name : 
+13:58:09,429  INFO CustomerClient,main:37 - Location : 
+13:58:10,002  INFO CustomerClient,main:44 - Address : 
+13:58:11,357 DEBUG CustomerClient,main:23 - true
+13:58:11,358 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+13:58:11,358 ERROR CustomerClient,main:21 - >>>  
+13:58:16,422 DEBUG CustomerClient,main:80 - 1,dsa,as,a
+102,fsf,mumbaiii,dd
+103,A,mumbai,c-2
+
+13:58:16,422 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+13:58:16,422 ERROR CustomerClient,main:21 - >>>  
+13:58:22,666  INFO CustomerClient,main:51 - Enter ID to delete : 
+13:58:23,962 DEBUG CustomerClient,main:52 - Deleted!
+13:58:23,962 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+13:58:23,962 ERROR CustomerClient,main:21 - >>>  
+13:59:24,390 ERROR CustomerClient,main:84 - Aborting .. !!
+13:59:27,431 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+13:59:27,432 ERROR CustomerClient,main:21 - >>>  
+13:59:29,497 DEBUG CustomerClient,main:80 - 102,fsf,mumbaiii,dd
+103,A,mumbai,c-2
+
+13:59:29,497 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+13:59:29,498 ERROR CustomerClient,main:21 - >>>  
+13:59:34,395 ERROR CustomerClient,main:84 - Aborting .. !!
+14:02:18,265 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+
+14:02:18,268 ERROR CustomerClient,main:21 - >>>  
+14:03:53,433 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+5.List Customer by ID
+
+14:03:53,437 ERROR CustomerClient,main:21 - >>>  
+14:03:56,930 DEBUG CustomerClient,main:80 - 
+102,fsf,mumbaiii,dd
+103,A,mumbai,c-2
+
+14:03:56,930 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+5.List Customer by ID
+
+14:03:56,930 ERROR CustomerClient,main:21 - >>>  
+14:03:59,135  INFO CustomerClient,main:83 - Enter ID to edit : 
+14:04:00,652 DEBUG CustomerClient,main:85 - 
+14:04:00,653 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+5.List Customer by ID
+
+14:04:00,653 ERROR CustomerClient,main:21 - >>>  
+14:04:34,872 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+5.List Customer by ID
+
+14:04:34,875 ERROR CustomerClient,main:21 - >>>  
+14:04:37,304  INFO CustomerClient,main:83 - Enter ID to edit : 
+14:04:39,722 DEBUG CustomerClient,main:85 - 
+14:04:39,722 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+5.List Customer by ID
+
+14:04:39,722 ERROR CustomerClient,main:21 - >>>  
+14:05:03,545 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+5.List Customer by ID
+
+14:05:03,548 ERROR CustomerClient,main:21 - >>>  
+14:05:04,937  INFO CustomerClient,main:83 - Enter ID to edit : 
+14:05:06,776 DEBUG CustomerClient,main:85 - 
+102,fsf,mumbaiii,dd
+
+14:05:06,777 DEBUG CustomerClient,main:20 - 
+
+Choices: 
+1.Add Customer 
+2.Delete Customer 
+3.Edit Customer
+4.List all Customers
+5.List Customer by ID
+
+14:05:06,777 ERROR CustomerClient,main:21 - >>>  
+14:05:10,976 ERROR CustomerClient,main:89 - Aborting .. !!

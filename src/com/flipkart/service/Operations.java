@@ -7,5 +7,6 @@ public interface Operations {
 	public String deleteCustomer(int ID);
 	public String editCustomer(int ID , Customer cust);
 	public String listCustomer();
+	public String listCustomerbyID(int ID);
 
 }
